@@ -1,5 +1,6 @@
 # Docs: https://caddyserver.com/docs/caddyfile
 
+comovoto.com.ar,
 www.comovoto.com.ar {
     root /var/www/public
     fastcgi / php-fpm:9000 php {
